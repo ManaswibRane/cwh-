@@ -19,3 +19,6 @@ for (const key in obj) {
     const element=obj[key];
         console.log(key,"--->",element);
     }
+for(const c of "Harry"){
+    console.log(c);
+}    
