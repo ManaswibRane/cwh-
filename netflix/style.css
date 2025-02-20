@@ -1,0 +1,114 @@
+    .main{
+    height: 120vh;
+    background-image: url("C:/Users/ASUS/OneDrive/Desktop/sigma web dev/cwh-/netflix/assets/bgimg.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    position: relative;
+  
+}
+body{
+    background-color: black;
+}
+.main .box{
+   height: calc(100% - 62px);
+   opacity: 0.6;
+   background-color: black;
+   width: 100%;
+   position: absolute;
+   top: 0;
+}
+#logoimg{
+    height: 5vh;
+  position: relative;
+  z-index: 10;
+}
+nav{
+    display: flex;
+    height: 62px;
+
+    /* justify-content: center; */
+    align-items: center;
+   max-width: 60vw;
+   margin: auto;
+   /* gap: 30vh; */
+   justify-content: space-between;
+    
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.maintxt{
+  
+    height:73%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 30px;
+}
+.maintxt> :first-child{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    line-height: 70px;
+    font-size: 56px;
+}
+.maintxt:nth-child(2){
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+}
+.maintxt:nth-child(3){
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+}
+#gtstarted{
+    height: 3vh;
+    width: 3vw;
+    text-align: center;
+  
+}
+#gtmail{
+    height: 5vh;
+    width: 40vw;
+    border-radius: 10%;
+    text-align: center;
+}
+.sep{
+    position: relative;
+    top: 80px;
+    height: 0.5vh;
+    width: 100%;
+   background-color: grey;
+}
+.btn{
+    padding: 3px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.redbtn{
+  background-color: red;
+  color: white;
+
+
+}
+.main input{
+    padding: 3px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: ;
+}
+#eng{
+    background-color:rgba(23, 23, 23,0.3);
+    color: white;
+    margin-right: 5px;
+}
