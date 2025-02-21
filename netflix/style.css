@@ -118,6 +118,7 @@ nav button{
     left: 20px;
 } */
 .photo{
+ 
     display: inline-block;
     position: relative;
     left: 20px;
@@ -126,4 +127,25 @@ nav button{
 .container2{
     display: flex;
     gap: 10vh;
+    overflow: scroll;
+}
+.optphoto{
+    border-radius: 10px;
+}
+
+
+
+#trnow{
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+}
+#goleft,#goright{
+    position: relative;
+    top: 120px;
+    height: 5vh;
 }
