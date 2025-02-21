@@ -105,10 +105,25 @@ nav button{
     font-weight: bold;
     font-size: 20px;
     border-radius: 4px;
-    background-color: ;
+    background-color: transparent;
+    color: white;
 }
 #eng{
     background-color:rgba(23, 23, 23,0.3);
     color: white;
     margin-right: 5px;
+}
+/* .photo1{
+    position: relative;
+    left: 20px;
+} */
+.photo{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+   
+}
+.container2{
+    display: flex;
+    gap: 10vh;
 }
